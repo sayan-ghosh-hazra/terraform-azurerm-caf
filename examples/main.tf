@@ -4,7 +4,7 @@ module "caf" {
 
   global_settings = var.global_settings
   resource_groups = var.resource_groups
-  #keyvaults       = var.keyvaults
+  keyvaults       = var.keyvaults
 
   compute = {
     virtual_machines = var.virtual_machines
