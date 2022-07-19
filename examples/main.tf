@@ -6,12 +6,12 @@ module "caf" {
   resource_groups = var.resource_groups
   keyvaults       = var.keyvaults
 
-#   compute = {
-#     virtual_machines = var.virtual_machines
-#   }
+  compute = {
+    virtual_machines = var.virtual_machines
+  }
 
-#   networking = {
-#     public_ip_addresses = var.public_ip_addresses
-#     vnets               = var.vnets
-#   }
+  networking = {
+    public_ip_addresses = var.public_ip_addresses
+    vnets               = var.vnets
+  }
 }
