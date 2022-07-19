@@ -5,7 +5,7 @@ terraform {
       source  = "hashicorp/azurerm"
       version = "~> 2.55"
       configuration_aliases = [
-        azurerm.virtual_hub
+        azurerm.vhub
       ]
     }
     azuread = {
