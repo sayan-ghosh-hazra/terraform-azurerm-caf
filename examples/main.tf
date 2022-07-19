@@ -14,4 +14,4 @@ module "caf" {
 #     public_ip_addresses = var.public_ip_addresses
 #     vnets               = var.vnets
 #   }
-# }
+}
