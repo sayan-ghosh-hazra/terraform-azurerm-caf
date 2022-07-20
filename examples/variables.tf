@@ -17,3 +17,6 @@ variable "keyvaults" {
 variable "global_settings" {
   default = {}
 }
+variable "network_security_group_definition" {
+  default = {}
+}
