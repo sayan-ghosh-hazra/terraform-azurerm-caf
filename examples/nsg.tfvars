@@ -36,6 +36,17 @@ network_security_group_definition = {
         source_address_prefix      = "VirtualNetwork"
         destination_address_prefix = "VirtualNetwork"
       },
+      {
+        name                       = "web-from-jump-host",
+        priority                   = "105"
+        direction                  = "Inbound"
+        access                     = "Allow"
+        protocol                   = "tcp"
+        source_port_range          = "*"
+        destination_port_range     = "22"
+        source_address_prefix      = "VirtualNetwork"
+        destination_address_prefix = "VirtualNetwork"
+      },
     ]
   }
 
