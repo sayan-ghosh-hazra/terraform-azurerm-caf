@@ -12,7 +12,6 @@ module "caf" {
 
   networking = {
     public_ip_addresses = var.public_ip_addresses
-    network_security_group_definition  = var.network_security_group_definition
     vnets               = var.vnets
   }
 }
